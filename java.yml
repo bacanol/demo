@@ -1,7 +1,7 @@
 - hosts: localhost
   connection: local
   roles:
-        - bacanol.oracle-java
+        - srsp.oracle-java
   vars: 
         java_install_jce: false
 
