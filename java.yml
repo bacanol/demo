@@ -1,12 +1,7 @@
 - hosts: localhost
   connection: local
   roles:
-        - williamyeh.oracle-java
+        - bacanol.oracle-java
   vars: 
-        java_version: 8
-        java_subversion: 112
-        java_download_from_oracle: true
-        java_remove_download: true
-        java_set_javahome: true
         java_install_jce: false
 
