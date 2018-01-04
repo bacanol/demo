@@ -23,7 +23,7 @@
         <Connector port="8080"
                    maxHttpHeaderSize="32768"
 
-                   proxyName="http://jira-demo-atl-dev-demo.192.168.99.100.nip.io"
+                   proxyName="jira-demo-atl-dev-demo.192.168.99.100.nip.io"
                    proxyPort="80"
                    scheme="http"
                    secure="true"
