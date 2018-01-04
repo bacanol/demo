@@ -27,7 +27,7 @@ RUN yum makecache fast \
  && yum clean all
 
 RUN ansible-galaxy install\
-    williamyeh.oracle-java
+    bacanol.oracle-java
 
 RUN mkdir /tmp/ansible
 WORKDIR /tmp/ansible
